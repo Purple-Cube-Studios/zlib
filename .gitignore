@@ -34,3 +34,11 @@ contrib/vstudio/vc143/arm64
 contrib/nuget/bin
 contrib/nuget/obj
 *.included
+
+#Exclude stuff from building in src
+[Dd]ebug/
+[Rr]elease/
+*.vcxproj
+*.vcxproj.filters
+*.vpc_crc
+*.sentinel
